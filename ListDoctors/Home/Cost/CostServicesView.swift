@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CostServicesView: View {
-    @Environment(\.presentationMode) var presentacion
+    @Environment(\.dismiss) var dismiss
     var users: Users
     var body: some View {
         ZStack {
@@ -24,7 +24,7 @@ struct CostServicesView: View {
         .navigationBarTitle("Стоимость услуг", displayMode: .inline)
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(leading: Button(action: {
-            self.presentacion.wrappedValue.dismiss()
+            dismiss()
         }, label: {
             Image(.arrow)
         }))

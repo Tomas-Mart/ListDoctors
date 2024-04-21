@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ExtractedView: View {
+struct SearchView: View {
     @Binding var text: String
     var body: some View {
         HStack {

@@ -1,5 +1,5 @@
 //
-//  TextButton.swift
+//  ButtonView.swift
 //  ListDoctors
 //
 //  Created by Amina TomasMart on 21.04.2024.
@@ -7,11 +7,11 @@
 
 import SwiftUI
 
-struct TextButton: View {
+struct ButtonView: View {
     var users: Users
     var body: some View {
         NavigationLink {
-            CostServicesView(users: users)
+            PediatricianView(users: users)
         } label: {
             if let rank = users.rank, rank == 0 {
                 Text("Нет свободного расписания")
@@ -35,5 +35,5 @@ struct TextButton: View {
 }
 
 #Preview {
-    TextButton(users: DoctorsModel.preview)
+    ButtonView(users: DoctorsModel.preview)
 }

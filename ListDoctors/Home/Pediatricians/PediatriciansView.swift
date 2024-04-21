@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct PediatriciansView: View {
+    @Environment(\.dismiss) var dismiss
     @StateObject var model = DoctorsModel()
-    @Environment(\.presentationMode) var presentacion
     @State var segmentIndex = 0
     @State var text = ""
     var sorting = ["По цене", "По стажу", "По рейтингу"]
@@ -25,7 +25,7 @@ struct PediatriciansView: View {
             VStack(spacing: 20) {
                 
                 VStack(spacing: 20) {
-                    ExtractedView(text: $text)
+                    SearchView(text: $text)
                     Picker(selection: $segmentIndex, label: Text("")) {
                         ForEach(0..<sorting.count) {
                             Text(self.sorting[$0]).tag($0)
@@ -47,7 +47,7 @@ struct PediatriciansView: View {
         .navigationBarTitle("Педиатры", displayMode: .inline)
         .navigationBarBackButtonHidden(true)
         .navigationBarItems(leading: Button(action: {
-            self.presentacion.wrappedValue.dismiss()
+            dismiss()
         }, label: {
             Image(.arrow)
         }))

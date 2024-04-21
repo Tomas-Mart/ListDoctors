@@ -22,12 +22,16 @@
 		A7892E112BD2239300A25B13 /* DoctorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E102BD2239300A25B13 /* DoctorsModel.swift */; };
 		A7892E152BD3543300A25B13 /* CardCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E142BD3543300A25B13 /* CardCost.swift */; };
 		A7892E192BD35BBC00A25B13 /* CardDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E182BD35BBC00A25B13 /* CardDoctor.swift */; };
-		A7892E1B2BD39D4700A25B13 /* DetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E1A2BD39D4700A25B13 /* DetailsModel.swift */; };
 		A7892E1D2BD39E7800A25B13 /* DetailsDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E1C2BD39E7800A25B13 /* DetailsDoc.swift */; };
 		A7892E422BD4B7CD00A25B13 /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E412BD4B7CD00A25B13 /* StarsView.swift */; };
 		A7892E442BD50ED000A25B13 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E432BD50ED000A25B13 /* TextButton.swift */; };
 		A7892E462BD520A200A25B13 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E452BD520A200A25B13 /* Request.swift */; };
-		A7892E492BD5321500A25B13 /* ExtractedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E482BD5321500A25B13 /* ExtractedView.swift */; };
+		A7892E492BD5321500A25B13 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E482BD5321500A25B13 /* SearchView.swift */; };
+		A7892E4B2BD5613000A25B13 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E4A2BD5613000A25B13 /* DetailsView.swift */; };
+		A7892E4D2BD5634900A25B13 /* ProfilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E4C2BD5634900A25B13 /* ProfilView.swift */; };
+		A7892E512BD59ACD00A25B13 /* DetailsCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E502BD59ACD00A25B13 /* DetailsCard.swift */; };
+		A7892E532BD59BAD00A25B13 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E522BD59BAD00A25B13 /* ButtonView.swift */; };
+		A7892E552BD59CD900A25B13 /* CostLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E542BD59CD900A25B13 /* CostLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,12 +51,16 @@
 		A7892E102BD2239300A25B13 /* DoctorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsModel.swift; sourceTree = "<group>"; };
 		A7892E142BD3543300A25B13 /* CardCost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCost.swift; sourceTree = "<group>"; };
 		A7892E182BD35BBC00A25B13 /* CardDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDoctor.swift; sourceTree = "<group>"; };
-		A7892E1A2BD39D4700A25B13 /* DetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsModel.swift; sourceTree = "<group>"; };
 		A7892E1C2BD39E7800A25B13 /* DetailsDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDoc.swift; sourceTree = "<group>"; };
 		A7892E412BD4B7CD00A25B13 /* StarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
 		A7892E432BD50ED000A25B13 /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
 		A7892E452BD520A200A25B13 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
-		A7892E482BD5321500A25B13 /* ExtractedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedView.swift; sourceTree = "<group>"; };
+		A7892E482BD5321500A25B13 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		A7892E4A2BD5613000A25B13 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		A7892E4C2BD5634900A25B13 /* ProfilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilView.swift; sourceTree = "<group>"; };
+		A7892E502BD59ACD00A25B13 /* DetailsCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCard.swift; sourceTree = "<group>"; };
+		A7892E522BD59BAD00A25B13 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		A7892E542BD59CD900A25B13 /* CostLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,8 +163,10 @@
 			isa = PBXGroup;
 			children = (
 				A7892DFF2BD0A1E900A25B13 /* PediatriciansView.swift */,
-				A7892E482BD5321500A25B13 /* ExtractedView.swift */,
+				A7892E482BD5321500A25B13 /* SearchView.swift */,
 				A7892E182BD35BBC00A25B13 /* CardDoctor.swift */,
+				A7892E502BD59ACD00A25B13 /* DetailsCard.swift */,
+				A7892E522BD59BAD00A25B13 /* ButtonView.swift */,
 				A7892E412BD4B7CD00A25B13 /* StarsView.swift */,
 			);
 			path = Pediatricians;
@@ -166,9 +176,11 @@
 			isa = PBXGroup;
 			children = (
 				A7892E012BD0A22900A25B13 /* PediatricianView.swift */,
-				A7892E432BD50ED000A25B13 /* TextButton.swift */,
-				A7892E1A2BD39D4700A25B13 /* DetailsModel.swift */,
+				A7892E4C2BD5634900A25B13 /* ProfilView.swift */,
+				A7892E4A2BD5613000A25B13 /* DetailsView.swift */,
 				A7892E1C2BD39E7800A25B13 /* DetailsDoc.swift */,
+				A7892E542BD59CD900A25B13 /* CostLabel.swift */,
+				A7892E432BD50ED000A25B13 /* TextButton.swift */,
 			);
 			path = Pediatrician;
 			sourceTree = "<group>";
@@ -253,13 +265,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7892E422BD4B7CD00A25B13 /* StarsView.swift in Sources */,
+				A7892E4B2BD5613000A25B13 /* DetailsView.swift in Sources */,
+				A7892E552BD59CD900A25B13 /* CostLabel.swift in Sources */,
 				A7892E192BD35BBC00A25B13 /* CardDoctor.swift in Sources */,
 				A7892E442BD50ED000A25B13 /* TextButton.swift in Sources */,
 				A7892E072BD0A35600A25B13 /* AppointmentsView.swift in Sources */,
 				A7892E0D2BD0A3FB00A25B13 /* ProfileView.swift in Sources */,
+				A7892E532BD59BAD00A25B13 /* ButtonView.swift in Sources */,
+				A7892E4D2BD5634900A25B13 /* ProfilView.swift in Sources */,
 				A7892E112BD2239300A25B13 /* DoctorsModel.swift in Sources */,
+				A7892E512BD59ACD00A25B13 /* DetailsCard.swift in Sources */,
 				A7892DFD2BD0A16500A25B13 /* HomeView.swift in Sources */,
-				A7892E492BD5321500A25B13 /* ExtractedView.swift in Sources */,
+				A7892E492BD5321500A25B13 /* SearchView.swift in Sources */,
 				A7892E462BD520A200A25B13 /* Request.swift in Sources */,
 				A7892E152BD3543300A25B13 /* CardCost.swift in Sources */,
 				A7892E0A2BD0A3AC00A25B13 /* СhatView.swift in Sources */,
@@ -269,7 +286,6 @@
 				A7892E022BD0A22900A25B13 /* PediatricianView.swift in Sources */,
 				A7892E0F2BD2042000A25B13 /* Service.swift in Sources */,
 				A7892DF12BD038CB00A25B13 /* MainTabView.swift in Sources */,
-				A7892E1B2BD39D4700A25B13 /* DetailsModel.swift in Sources */,
 				A7892DEF2BD038CB00A25B13 /* ListDoctorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

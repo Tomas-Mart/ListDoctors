@@ -14,6 +14,8 @@ struct DetailsDoc: View {
         HStack {
             Image(image)
             Text(text)
+                .frame(alignment: .leading)
+                .lineLimit(nil)
         }
     }
 }
