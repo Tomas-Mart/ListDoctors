@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7892DEF2BD038CB00A25B13 /* ListDoctorsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892DEE2BD038CB00A25B13 /* ListDoctorsApp.swift */; };
+		A7892DF12BD038CB00A25B13 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892DF02BD038CB00A25B13 /* MainTabView.swift */; };
+		A7892DF32BD038CD00A25B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7892DF22BD038CD00A25B13 /* Assets.xcassets */; };
+		A7892DF62BD038CD00A25B13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7892DF52BD038CD00A25B13 /* Preview Assets.xcassets */; };
+		A7892DFD2BD0A16500A25B13 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892DFC2BD0A16500A25B13 /* HomeView.swift */; };
+		A7892E002BD0A1E900A25B13 /* PediatriciansView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892DFF2BD0A1E900A25B13 /* PediatriciansView.swift */; };
+		A7892E022BD0A22900A25B13 /* PediatricianView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E012BD0A22900A25B13 /* PediatricianView.swift */; };
+		A7892E042BD0A27400A25B13 /* CostServicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E032BD0A27400A25B13 /* CostServicesView.swift */; };
+		A7892E072BD0A35600A25B13 /* AppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E062BD0A35600A25B13 /* AppointmentsView.swift */; };
+		A7892E0A2BD0A3AC00A25B13 /* СhatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E092BD0A3AC00A25B13 /* СhatView.swift */; };
+		A7892E0D2BD0A3FB00A25B13 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E0C2BD0A3FB00A25B13 /* ProfileView.swift */; };
+		A7892E0F2BD2042000A25B13 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E0E2BD2042000A25B13 /* Service.swift */; };
+		A7892E112BD2239300A25B13 /* DoctorsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E102BD2239300A25B13 /* DoctorsModel.swift */; };
+		A7892E152BD3543300A25B13 /* CardCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E142BD3543300A25B13 /* CardCost.swift */; };
+		A7892E192BD35BBC00A25B13 /* CardDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E182BD35BBC00A25B13 /* CardDoctor.swift */; };
+		A7892E1B2BD39D4700A25B13 /* DetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E1A2BD39D4700A25B13 /* DetailsModel.swift */; };
+		A7892E1D2BD39E7800A25B13 /* DetailsDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E1C2BD39E7800A25B13 /* DetailsDoc.swift */; };
+		A7892E422BD4B7CD00A25B13 /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E412BD4B7CD00A25B13 /* StarsView.swift */; };
+		A7892E442BD50ED000A25B13 /* TextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E432BD50ED000A25B13 /* TextButton.swift */; };
+		A7892E462BD520A200A25B13 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E452BD520A200A25B13 /* Request.swift */; };
+		A7892E492BD5321500A25B13 /* ExtractedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7892E482BD5321500A25B13 /* ExtractedView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7892DEB2BD038CB00A25B13 /* ListDoctors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ListDoctors.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7892DEE2BD038CB00A25B13 /* ListDoctorsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListDoctorsApp.swift; sourceTree = "<group>"; };
+		A7892DF02BD038CB00A25B13 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		A7892DF22BD038CD00A25B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7892DF52BD038CD00A25B13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A7892DFC2BD0A16500A25B13 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A7892DFF2BD0A1E900A25B13 /* PediatriciansView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PediatriciansView.swift; sourceTree = "<group>"; };
+		A7892E012BD0A22900A25B13 /* PediatricianView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PediatricianView.swift; sourceTree = "<group>"; };
+		A7892E032BD0A27400A25B13 /* CostServicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CostServicesView.swift; sourceTree = "<group>"; };
+		A7892E062BD0A35600A25B13 /* AppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentsView.swift; sourceTree = "<group>"; };
+		A7892E092BD0A3AC00A25B13 /* СhatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "СhatView.swift"; sourceTree = "<group>"; };
+		A7892E0C2BD0A3FB00A25B13 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		A7892E0E2BD2042000A25B13 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		A7892E102BD2239300A25B13 /* DoctorsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorsModel.swift; sourceTree = "<group>"; };
+		A7892E142BD3543300A25B13 /* CardCost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardCost.swift; sourceTree = "<group>"; };
+		A7892E182BD35BBC00A25B13 /* CardDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDoctor.swift; sourceTree = "<group>"; };
+		A7892E1A2BD39D4700A25B13 /* DetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsModel.swift; sourceTree = "<group>"; };
+		A7892E1C2BD39E7800A25B13 /* DetailsDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsDoc.swift; sourceTree = "<group>"; };
+		A7892E412BD4B7CD00A25B13 /* StarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
+		A7892E432BD50ED000A25B13 /* TextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextButton.swift; sourceTree = "<group>"; };
+		A7892E452BD520A200A25B13 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		A7892E482BD5321500A25B13 /* ExtractedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtractedView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7892DE82BD038CB00A25B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7892DE22BD038CB00A25B13 = {
+			isa = PBXGroup;
+			children = (
+				A7892DED2BD038CB00A25B13 /* ListDoctors */,
+				A7892DEC2BD038CB00A25B13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7892DEC2BD038CB00A25B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7892DEB2BD038CB00A25B13 /* ListDoctors.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7892DED2BD038CB00A25B13 /* ListDoctors */ = {
+			isa = PBXGroup;
+			children = (
+				A7892DF22BD038CD00A25B13 /* Assets.xcassets */,
+				A7892DEE2BD038CB00A25B13 /* ListDoctorsApp.swift */,
+				A7892E0E2BD2042000A25B13 /* Service.swift */,
+				A7892DF02BD038CB00A25B13 /* MainTabView.swift */,
+				A7892E472BD520DF00A25B13 /* Models */,
+				A7892DFE2BD0A1C600A25B13 /* Home */,
+				A7892E052BD0A2D800A25B13 /* Appointments */,
+				A7892E082BD0A39500A25B13 /* Сhat */,
+				A7892E0B2BD0A3E300A25B13 /* Profile */,
+				A7892DF42BD038CD00A25B13 /* Preview Content */,
+			);
+			path = ListDoctors;
+			sourceTree = "<group>";
+		};
+		A7892DF42BD038CD00A25B13 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A7892DF52BD038CD00A25B13 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A7892DFE2BD0A1C600A25B13 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A7892DFC2BD0A16500A25B13 /* HomeView.swift */,
+				A7892E172BD35B4300A25B13 /* Pediatricians */,
+				A7892E1E2BD3A02300A25B13 /* Pediatrician */,
+				A7892E162BD3549D00A25B13 /* Cost */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A7892E052BD0A2D800A25B13 /* Appointments */ = {
+			isa = PBXGroup;
+			children = (
+				A7892E062BD0A35600A25B13 /* AppointmentsView.swift */,
+			);
+			path = Appointments;
+			sourceTree = "<group>";
+		};
+		A7892E082BD0A39500A25B13 /* Сhat */ = {
+			isa = PBXGroup;
+			children = (
+				A7892E092BD0A3AC00A25B13 /* СhatView.swift */,
+			);
+			path = "Сhat";
+			sourceTree = "<group>";
+		};
+		A7892E0B2BD0A3E300A25B13 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A7892E0C2BD0A3FB00A25B13 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A7892E162BD3549D00A25B13 /* Cost */ = {
+			isa = PBXGroup;
+			children = (
+				A7892E032BD0A27400A25B13 /* CostServicesView.swift */,
+				A7892E142BD3543300A25B13 /* CardCost.swift */,
+			);
+			path = Cost;
+			sourceTree = "<group>";
+		};
+		A7892E172BD35B4300A25B13 /* Pediatricians */ = {
+			isa = PBXGroup;
+			children = (
+				A7892DFF2BD0A1E900A25B13 /* PediatriciansView.swift */,
+				A7892E482BD5321500A25B13 /* ExtractedView.swift */,
+				A7892E182BD35BBC00A25B13 /* CardDoctor.swift */,
+				A7892E412BD4B7CD00A25B13 /* StarsView.swift */,
+			);
+			path = Pediatricians;
+			sourceTree = "<group>";
+		};
+		A7892E1E2BD3A02300A25B13 /* Pediatrician */ = {
+			isa = PBXGroup;
+			children = (
+				A7892E012BD0A22900A25B13 /* PediatricianView.swift */,
+				A7892E432BD50ED000A25B13 /* TextButton.swift */,
+				A7892E1A2BD39D4700A25B13 /* DetailsModel.swift */,
+				A7892E1C2BD39E7800A25B13 /* DetailsDoc.swift */,
+			);
+			path = Pediatrician;
+			sourceTree = "<group>";
+		};
+		A7892E472BD520DF00A25B13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7892E452BD520A200A25B13 /* Request.swift */,
+				A7892E102BD2239300A25B13 /* DoctorsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7892DEA2BD038CB00A25B13 /* ListDoctors */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7892DF92BD038CD00A25B13 /* Build configuration list for PBXNativeTarget "ListDoctors" */;
+			buildPhases = (
+				A7892DE72BD038CB00A25B13 /* Sources */,
+				A7892DE82BD038CB00A25B13 /* Frameworks */,
+				A7892DE92BD038CB00A25B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ListDoctors;
+			productName = ListDoctors;
+			productReference = A7892DEB2BD038CB00A25B13 /* ListDoctors.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7892DE32BD038CB00A25B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					A7892DEA2BD038CB00A25B13 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = A7892DE62BD038CB00A25B13 /* Build configuration list for PBXProject "ListDoctors" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7892DE22BD038CB00A25B13;
+			productRefGroup = A7892DEC2BD038CB00A25B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7892DEA2BD038CB00A25B13 /* ListDoctors */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7892DE92BD038CB00A25B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7892DF62BD038CD00A25B13 /* Preview Assets.xcassets in Resources */,
+				A7892DF32BD038CD00A25B13 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7892DE72BD038CB00A25B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7892E422BD4B7CD00A25B13 /* StarsView.swift in Sources */,
+				A7892E192BD35BBC00A25B13 /* CardDoctor.swift in Sources */,
+				A7892E442BD50ED000A25B13 /* TextButton.swift in Sources */,
+				A7892E072BD0A35600A25B13 /* AppointmentsView.swift in Sources */,
+				A7892E0D2BD0A3FB00A25B13 /* ProfileView.swift in Sources */,
+				A7892E112BD2239300A25B13 /* DoctorsModel.swift in Sources */,
+				A7892DFD2BD0A16500A25B13 /* HomeView.swift in Sources */,
+				A7892E492BD5321500A25B13 /* ExtractedView.swift in Sources */,
+				A7892E462BD520A200A25B13 /* Request.swift in Sources */,
+				A7892E152BD3543300A25B13 /* CardCost.swift in Sources */,
+				A7892E0A2BD0A3AC00A25B13 /* СhatView.swift in Sources */,
+				A7892E1D2BD39E7800A25B13 /* DetailsDoc.swift in Sources */,
+				A7892E042BD0A27400A25B13 /* CostServicesView.swift in Sources */,
+				A7892E002BD0A1E900A25B13 /* PediatriciansView.swift in Sources */,
+				A7892E022BD0A22900A25B13 /* PediatricianView.swift in Sources */,
+				A7892E0F2BD2042000A25B13 /* Service.swift in Sources */,
+				A7892DF12BD038CB00A25B13 /* MainTabView.swift in Sources */,
+				A7892E1B2BD39D4700A25B13 /* DetailsModel.swift in Sources */,
+				A7892DEF2BD038CB00A25B13 /* ListDoctorsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7892DF72BD038CD00A25B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7892DF82BD038CD00A25B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7892DFA2BD038CD00A25B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ListDoctors/Preview Content\"";
+				DEVELOPMENT_TEAM = L2V2FS26HA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amina.tomas.mart.ListDoctors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7892DFB2BD038CD00A25B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ListDoctors/Preview Content\"";
+				DEVELOPMENT_TEAM = L2V2FS26HA;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amina.tomas.mart.ListDoctors;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7892DE62BD038CB00A25B13 /* Build configuration list for PBXProject "ListDoctors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7892DF72BD038CD00A25B13 /* Debug */,
+				A7892DF82BD038CD00A25B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7892DF92BD038CD00A25B13 /* Build configuration list for PBXNativeTarget "ListDoctors" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7892DFA2BD038CD00A25B13 /* Debug */,
+				A7892DFB2BD038CD00A25B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7892DE32BD038CB00A25B13 /* Project object */;
+}
